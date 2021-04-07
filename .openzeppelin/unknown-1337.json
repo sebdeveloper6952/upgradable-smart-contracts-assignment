@@ -1,0 +1,65 @@
+{
+  "manifestVersion": "3.1",
+  "impls": {
+    "220061cfb82e69c3721fdfe04e65992494200708b00c3ada34f2496b111bffbb": {
+      "address": "0xCfEB869F69431e42cdB54A4F4f105C19C080A601",
+      "txHash": "0xa00ae7e72e7b5ad4e80337875336cad2726cdac19f031608c9302963755b2b82",
+      "layout": {
+        "storage": [
+          {
+            "contract": "NumberV1",
+            "label": "number",
+            "type": "t_uint256",
+            "src": "NumberV1.sol:4"
+          },
+          {
+            "contract": "NumberV1",
+            "label": "owner",
+            "type": "t_address",
+            "src": "NumberV1.sol:5"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    },
+    "2194f4d57623c1982afe396e4f3413035117bdc1b86873697fd26323bc8053e6": {
+      "address": "0xe982E462b094850F12AF94d21D470e21bE9D0E9C",
+      "txHash": "0x8a26d11108c6297718a730a6d4db1c28b4149103f9c8a181526e6919d226f599",
+      "layout": {
+        "storage": [
+          {
+            "contract": "NumberV2",
+            "label": "number",
+            "type": "t_uint256",
+            "src": "Migrations.sol:2"
+          },
+          {
+            "contract": "NumberV2",
+            "label": "owner",
+            "type": "t_address",
+            "src": "Migrations.sol:4"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          }
+        }
+      }
+    }
+  },
+  "admin": {
+    "address": "0x254dffcd3277C0b1660F6d42EFbB754edaBAbC2B",
+    "txHash": "0xf27c87da0974dcc68a75c7bedc652c72fc6a1fdfb59716d013d2fcd70f53aeb9"
+  }
+}
